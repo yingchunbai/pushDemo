@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E122DB0E20A2F4F70085BE06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB0D20A2F4F70085BE06 /* AppDelegate.m */; };
-		E122DB1120A2F4F70085BE06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB1020A2F4F70085BE06 /* ViewController.m */; };
 		E122DB1420A2F4F70085BE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E122DB1220A2F4F70085BE06 /* Main.storyboard */; };
 		E122DB1620A2F4F90085BE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E122DB1520A2F4F90085BE06 /* Assets.xcassets */; };
 		E122DB1920A2F4F90085BE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E122DB1720A2F4F90085BE06 /* LaunchScreen.storyboard */; };
 		E122DB1C20A2F4F90085BE06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB1B20A2F4F90085BE06 /* main.m */; };
+		E122DB2320A2F51A0085BE06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB2220A2F51A0085BE06 /* AppDelegate.m */; };
+		E122DB2920A2F5260085BE06 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB2420A2F5250085BE06 /* SecondViewController.m */; };
+		E122DB2A20A2F5260085BE06 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB2720A2F5250085BE06 /* FristViewController.m */; };
+		E122DB2C20A2F5370085BE06 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E122DB2B20A2F5360085BE06 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E122DB0920A2F4F70085BE06 /* PushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E122DB0C20A2F4F70085BE06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E122DB0D20A2F4F70085BE06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E122DB0F20A2F4F70085BE06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E122DB1020A2F4F70085BE06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E122DB1320A2F4F70085BE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E122DB1520A2F4F90085BE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E122DB1820A2F4F90085BE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E122DB1A20A2F4F90085BE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E122DB1B20A2F4F90085BE06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E122DB2220A2F51A0085BE06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E122DB2420A2F5250085BE06 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E122DB2520A2F5250085BE06 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		E122DB2620A2F5250085BE06 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E122DB2720A2F5250085BE06 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
+		E122DB2820A2F5260085BE06 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E122DB2B20A2F5360085BE06 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		E122DB0020A2F4F70085BE06 = {
 			isa = PBXGroup;
 			children = (
+				E122DB0C20A2F4F70085BE06 /* AppDelegate.h */,
+				E122DB2220A2F51A0085BE06 /* AppDelegate.m */,
 				E122DB0B20A2F4F70085BE06 /* PushDemo */,
 				E122DB0A20A2F4F70085BE06 /* Products */,
 			);
@@ -58,10 +66,12 @@
 		E122DB0B20A2F4F70085BE06 /* PushDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E122DB0C20A2F4F70085BE06 /* AppDelegate.h */,
-				E122DB0D20A2F4F70085BE06 /* AppDelegate.m */,
-				E122DB0F20A2F4F70085BE06 /* ViewController.h */,
-				E122DB1020A2F4F70085BE06 /* ViewController.m */,
+				E122DB2520A2F5250085BE06 /* FristViewController.h */,
+				E122DB2720A2F5250085BE06 /* FristViewController.m */,
+				E122DB2620A2F5250085BE06 /* SecondViewController.h */,
+				E122DB2420A2F5250085BE06 /* SecondViewController.m */,
+				E122DB2820A2F5260085BE06 /* ThirdViewController.h */,
+				E122DB2B20A2F5360085BE06 /* ThirdViewController.m */,
 				E122DB1220A2F4F70085BE06 /* Main.storyboard */,
 				E122DB1520A2F4F90085BE06 /* Assets.xcassets */,
 				E122DB1720A2F4F90085BE06 /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E122DB1120A2F4F70085BE06 /* ViewController.m in Sources */,
+				E122DB2920A2F5260085BE06 /* SecondViewController.m in Sources */,
+				E122DB2C20A2F5370085BE06 /* ThirdViewController.m in Sources */,
+				E122DB2320A2F51A0085BE06 /* AppDelegate.m in Sources */,
 				E122DB1C20A2F4F90085BE06 /* main.m in Sources */,
-				E122DB0E20A2F4F70085BE06 /* AppDelegate.m in Sources */,
+				E122DB2A20A2F5260085BE06 /* FristViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

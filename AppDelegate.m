@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FristViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    FristViewController *first=[FristViewController alloc];
+    //创建导航控制器
+    UINavigationController *controller=[[UINavigationController alloc]initWithRootViewController:first];
+    //将导航控制器作为window的根视图
+    self.window.rootViewController=controller;
+    
     return YES;
 }
 
